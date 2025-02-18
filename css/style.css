@@ -40,3 +40,30 @@ body {
 .menu-item:last-child {
   padding-right: 0;
 }
+.headline {
+	background-color: #f5f5f7;
+	text-align: center;
+	padding: 70px 0 40px 0;
+}
+.title {
+	text-transform: uppercase;
+	margin: 0 0 40px;
+	color: #490e84;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 77px;
+}
+.headline-img {
+	margin-bottom: 25px;
+}
+.headline-btn {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #490e84;
+	padding: 20px 120px;
+	border-radius: 30px;
+}
