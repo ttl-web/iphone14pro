@@ -192,3 +192,22 @@ justify-content: space-between;
 	flex-basis: 0;
 	flex-grow: 1;
 }
+
+
+/* adaptivity */
+@media (max-width: 1200px) {
+	.headline-img {
+		max-width: 100%;
+	}
+}
+@media (max-width: 560px) {
+	.title {
+		font-size: 34px;
+		line-height: 42px;
+	}
+	.headline-btn {
+		font-size: 18px;
+		line-height: 22ppx;
+		padding: 16px 90px;
+	}
+}
