@@ -200,10 +200,22 @@ justify-content: space-between;
 		max-width: 100%;
 	}
 }
+@media (max-width: 940px) {
+	.images-new {
+		display: none;
+	}
+	.new-text p, .new-text b {
+		max-width: 100%;
+	}
+}
 @media (max-width: 560px) {
 	.title {
 		font-size: 34px;
 		line-height: 42px;
+	}
+	.new-title, .color-title {
+		font-size: 28px;
+		line-height: 32px;
 	}
 	.headline-btn {
 		font-size: 18px;
